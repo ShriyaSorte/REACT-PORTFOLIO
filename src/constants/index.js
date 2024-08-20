@@ -65,7 +65,7 @@ export const PROJECTS = [
     image: ecommerce,
     description:
       "A complete online shopping solution is offered by this eCommerce platform with a React frontend and a robust backend, allowing customers to explore products, manage their carts, and make purchases. Order processing, payment transactions, user authentication, and data administration are all handled by the backend, while the frontend provides a user interface that is responsive and easy to use.",
-    technologies: ["React", "Tailwind CSS", "Node.js", "Express.js", "mongoDB"],
+    technologies: ["React", "Node.js", "Express.js", "mongoDB"],
   },
 ];
 
