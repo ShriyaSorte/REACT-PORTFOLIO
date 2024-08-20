@@ -10,8 +10,8 @@ const Navbar = () => {
         <img className="h-[140px] w-[140px]" src={logo} alt="" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin/>
-        <FaGithub/>
+        <a href="https://www.linkedin.com/in/shriya-sorte/"><FaLinkedin/></a>
+        <a href="https://github.com/ShriyaSorte"><FaGithub/></a>
       </div>
     </nav>
   );
