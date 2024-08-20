@@ -5,7 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 year of hands-on experience, I have honed my skills in front-end technologies like React, as well as back-end technologies like Node.js, MySQL and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `Full-Stack development student based in Pune, India. I am an Information Technology graduate from RTMNU. I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites using MERN Stack. Working for myself to improve my skills.`;
+export const ABOUT_TEXT = `Full-Stack development student based in Pune, India. I am an Information Technology graduate from RTMNU. I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites using MERN Stack. Working for myself to improve my skills. Whether I'm creating intricate APIs, streamlining user interfaces, or resolving difficult issues, my goal is to produce flawless user experiences and high-quality code. I am able to contribute creative ideas to the projects I work on because of my passion for lifelong learning, which keeps me abreast of the newest developments in the industry and technology.`;
 
 export const EXPERIENCES = [
   {
