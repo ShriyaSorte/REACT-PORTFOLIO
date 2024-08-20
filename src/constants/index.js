@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import fitness from "../assets/projects/fitness.jpeg";
+import hospital from "../assets/projects/hospital.jpeg";
+import food from "../assets/projects/food.jpeg";
+import ecommerce from "../assets/projects/ecommerce.jpeg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 year of hands-on experience, I have honed my skills in front-end technologies like React, as well as back-end technologies like Node.js, MySQL and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -33,39 +33,39 @@ export const EXPERIENCES = [
     year: "2021 - 2021",
     role: "Summer Intern",
     company: "Bennett University",
-    description: `During this internship, I worked on AI/ML projects and learned the basics of Python. This internship allowed me to apply theoretical knowledge in a practical setting, develop key technical skills, and enhance my problem-solving and teamwork abilities in a dynamic and collaborative environment.`,
+    description: `During this internship, I worked on AI/ML projects and learned the basics of Python. This internship allowed me to apply theoretical knowledge in a practical setting, develop key technical skills, and enhance my problem solving and teamwork abilities in a dynamic and collaborative environment.`,
     technologies: ["Python", "Machine Learning", "AI"],
   },
 ];
 
 export const PROJECTS = [
   {
+    title: "Fitness Tracker System",
+    image: fitness,
+    description:
+      "A fitness tracker API system is a backend service made to handle and supply fitness-related data to different client applications. Fitness tracking apps with features like user administration, workout tracking, diet monitoring, and more by interacting with the fitness data programmatically using this API.",
+    technologies: ["Express.js", "Node.js", "MongoDB"],
+  },
+  {
+    title: "Hospital Appointment System",
+    image: hospital,
+    description:
+      "A Hospital Appointment API System is a backend service that makes it easier for doctors, administrative staff, and patients to schedule, manage, and keep track of hospital appointments. Through the use of this API, hospital data can be accessed and used by client applications streamlining and improving the appointment process.",
+    technologies: ["Express.js", "Node.js", "MongoDB"],
+  },
+  {
+    title: "Food Delivery Website",
+    image: food,
+    description:
+      "A React-built front-end application for food delivery lets users browse restaurants, order online, check menus, etc. With its adaptable design and real-time updates, the app offers a flawless user experience that makes ordering food from preferred restaurants simple for customers.",
+    technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
+  },
+  {
     title: "E-Commerce Website",
-    image: project1,
+    image: ecommerce,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A complete online shopping solution is offered by this eCommerce platform with a React frontend and a robust backend, allowing customers to explore products, manage their carts, and make purchases. Order processing, payment transactions, user authentication, and data administration are all handled by the backend, while the frontend provides a user interface that is responsive and easy to use.",
+    technologies: ["React", "Tailwind CSS", "Node.js", "Express.js", "mongoDB"],
   },
 ];
 
