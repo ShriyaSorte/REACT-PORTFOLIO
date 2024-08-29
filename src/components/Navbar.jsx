@@ -45,7 +45,7 @@ const Navbar = () => {
 
         {/* Hamburger Menu Icon */}
         <div className="block md:hidden ">
-          <button onClick={toggleMenu} className="text-2xl ">
+          <button onClick={toggleMenu} className="text-3xl z-50">
             {isMenuOpen ? <FaTimes /> : <FaBars />}
           </button>
         </div>
