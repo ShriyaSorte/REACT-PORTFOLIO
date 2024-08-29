@@ -10,6 +10,7 @@ const Contact = () => {
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1.5 }}
         className="my-10 text-center text-4xl"
+        id="contact"
       >
         Get in <span className="text-neutral-500">Touch</span>
       </motion.h2>

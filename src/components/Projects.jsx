@@ -10,6 +10,7 @@ const Projects = () => {
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1.5 }}
         className="my-20 text-center text-4xl"
+        id="projects"
       >
         Projects
       </motion.h2>
@@ -37,7 +38,9 @@ const Projects = () => {
               className="w-full max-w-xl lg:w-3/4"
             >
               <h6 className="mb-2 font-semibold">{project.title}</h6>
-              <p className="mb-4 text-neutral-400 text-justify">{project.description}</p>
+              <p className="mb-4 text-neutral-400 text-justify">
+                {project.description}
+              </p>
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
