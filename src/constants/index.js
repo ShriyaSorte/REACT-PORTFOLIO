@@ -27,7 +27,7 @@ export const EXPERIENCES = [
     role: "Summer Intern",
     company: "Cojag Smart Technology Pvt. Ltd. ",
     description: `Helped with the creation and upkeep of the business's HTML, CSS, and JavaScript website. Used responsive design methods to help improve user interface (UI) and user experience (UX). Helped collect and prepare data from multiple sources, such as database searches and web scraping. Data was cleaned and arranged to guarantee consistency and accuracy. Utilized Python and Pandas to analyze datasets and generate actionable insights. Created visualizations using Matplotlib and Seaborn to present findings to the team.`,
-    technologies: ["Python", "HTML", "CSS", "Jupyter Notebook"],
+    technologies: ["Python", "HTML", "CSS"],
   },
   {
     year: "2021 - 2021",
