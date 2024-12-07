@@ -2,6 +2,7 @@ import fitness from "../assets/projects/fitness.jpeg";
 import hospital from "../assets/projects/hospital.jpeg";
 import food from "../assets/projects/food.jpeg";
 import ecommerce from "../assets/projects/ecommerce.jpeg";
+import todo from "../assets/projects/todo.jpeg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 year of hands-on experience, I have honed my skills in front-end technologies like React, as well as back-end technologies like Node.js and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -39,6 +40,12 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "TO-DO Web Application",
+    image: todo,
+    description: "A To-Do web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) efficiently manages tasks and provides a dynamic user experience. It includes secure user authentication with JWT and password hashing. Users can perform CRUD operations such as adding, updating, deleting, and viewing tasks. The backend, powered by Node.js and Express.js, interacts with MongoDB for data storage, while React.js ensures a responsive and interactive front-end. Additional features like task prioritization, deadlines, and status updates can enhance functionality. The application integrates RESTful APIs tested with tools like Postman to ensure smooth operation.",
+    technologies: ["MongoDB", "Express.js", "React.js", "Node.js"],
+  },
   {
     title: "Fitness Tracker System",
     image: fitness,
